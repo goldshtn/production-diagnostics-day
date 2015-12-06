@@ -61,7 +61,7 @@ Open the **SDPApp\SDPApp.sln** solution in Visual Studio. Build and run the web 
 
 #### Task 5
 
-From the Start menu, run **DebugDiag 2.0 Collection**. Use the wizard to create a new crash rule. In the target type selection dialog, pick **A specific process** and on the next screen select the **iisexpress.exe** process. (If you deployed the application to a full IIS instance, you should pick the appropriate **w3wp.exe** process, or pick All IIS/COM+ related processes on the previous screen.)
+From the Start menu, run **DebugDiag 2.0 Collection**. Use the wizard to create a new crash rule. In the target type selection dialog, pick **A specific process** and on the next screen select the **iisexpress.exe** process. (If you deployed the application to a full IIS instance, you should pick the appropriate **w3wp.exe** process, or pick **All IIS/COM+ related processes** on the previous screen.)
 
 In the **Advanced Settings** section, click **Exceptions** and then click **Add Exception**. Select **CLR (.NET) 4.x Exception** and in the exception type textbox type `System.ApplicationException`. In the action type dropdown select **Full Userdump**.
 
