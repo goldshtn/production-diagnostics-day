@@ -45,7 +45,7 @@ Drag the dump file onto the WinDbg surface. In the command window on the bottom,
 The debugger should then print the details and the call stack of the exception that occurred in the application. To see source-level information (source file name and line number) and additional data on parameters and local variables, issue the following commands:
 
 ```
-.load Path_To_FileExplorer\Binaries\sosex.dll
+.load Path_To_FileExplorer\sosex.dll
 !mk -a
 ```
 
